@@ -28,7 +28,7 @@
     "@nestjs/schedule": "^2.0.1",
     "csvtojson": "^2.0.10",
     "ethers": "^5.6.8",
-    "js-conflux-sdk": "^2.0.8",
+    "js-conflux-sdk": "^2.0.9",
     "json2csv": "^5.0.7",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
