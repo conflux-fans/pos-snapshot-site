@@ -23,8 +23,8 @@ const eSpacePoolList = require('./eSpacePoolList');
 const eSpacePoolCoreBridges = eSpacePoolList.map(item => item.coreBridgeAddress);
 
 const conflux = new Conflux({
-  // url: "https://main.confluxrpc.com",
-  url: 'wss://main.confluxrpc.com/ws',
+  url: "https://main.confluxrpc.com",
+  // url: 'wss://main.confluxrpc.com/ws',
   networkId: 1029
 });
 

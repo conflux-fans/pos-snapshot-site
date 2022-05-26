@@ -9,7 +9,7 @@ export class SnapshotTaskService {
 
   constructor(private configService: ConfigService) {}
 
-  @Cron('0 */30 * * * *')
+  @Cron('0 0 * * * *')
   handleCron() {
     const dir = this.configService.get<string>('CURRENT_SNAPSHOT_PATH');
     makeShot(dir).then(() => {
